@@ -1,0 +1,31 @@
+body{
+    background-color: hsla(0, 0%, 0%, 0.202) !important;
+}
+
+#container{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 50px;
+    border-radius: 50px;
+    background-color: hsla(276, 77%, 47%, 0.178);
+}
+
+.btn-primary{
+    position: absolute;
+    left: 45%;
+
+}
+
+@media screen and (max-width: 750px) {
+    .btn-primary{
+        left: 40%;
+    }
+}
+
+.display-6 a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
