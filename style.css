@@ -21,13 +21,6 @@ body {
     }
 }
 
-@media screen and (max-width: 750px) {
-  .none {
-    display: none;
-  }
-}
-
-
 .flex-conteiner > div {
     margin-bottom: 20px;
 }
@@ -422,18 +415,36 @@ h4 {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 970px) {
-  
-}
-
 @media screen and (max-width: 990px) {
-  #registry #singIn{
+    #registry #singIn {
         position: relative;
         left: 140%;
         padding: 15px;
     }
 
     #registry a {
-    background-color: #492a3e;
+        background-color: #492a3e;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .col-sm-0 {
+        display: none;
+    }
+    .none {
+        display: none;
+    }
+    .col-sm-12 {
+        margin: 0 auto;
+    }
+
+    #registry #singIn {
+        position: absolute;
+        left: 80%;
+        padding: 15px;
+    }
+
+    #registry a {
+        background-color: #492a3e;
     }
 }
